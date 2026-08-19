@@ -139,7 +139,7 @@ Features get built ahead of their backend being ready (AI Chat, Live TV) and shi
 
 | | |
 |---|---|
-| 🎬 **Live demo / APK** | [Download APK](/your-link.com) |
+| 🎬 **Live demo / APK** | [Download APK](https://github.com/Podda2006/Fermi-app/releases/download/v1.1.0/Fermi.app-release.apk) |
 | 🔒 **Source code** | Kept private |
 | ✉️ **Contact** | [Contact Us](https://t.me/Podda_2006_88) |
 | ✉️ **Screen** | [View Screen](https://t.me/c/4402259834/6) |
