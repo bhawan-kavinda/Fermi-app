@@ -140,11 +140,6 @@ Features get built ahead of their backend being ready (AI Chat, Live TV) and shi
 
 | | |
 |---|---|
-| 🎬 **Live demo / APK** | _add link_ |
-| 🔒 **Source code** | Kept private |
-| ✉️ **Contact** | https://t.me/Podda_2006_88 |
-| ✉️ **screen** | https://t.me/c/4402259834/6 |
-| --- | --- |
 | 🎬 **Live demo / APK** | [Download APK](https://your-link.com) |
 | 🔒 **Source code** | Kept private |
 | ✉️ **Contact** | [Contact Us](https://t.me/Podda_2006_88) |
