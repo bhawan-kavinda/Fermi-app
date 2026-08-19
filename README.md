@@ -5,7 +5,6 @@
 <br/>
 
 ![Solo Build](https://img.shields.io/badge/Build-Solo-C4141C?style=for-the-badge&labelColor=07070B)
-![Phone Only](https://img.shields.io/badge/Dev%20Environment-Phone%20Only-C4141C?style=for-the-badge&labelColor=07070B)
 ![Vibe Coded](https://img.shields.io/badge/Method-AI%20Assisted-C4141C?style=for-the-badge&labelColor=07070B)
 ![Status](https://img.shields.io/badge/Status-Shipped-2ECC71?style=for-the-badge&labelColor=07070B)
 
@@ -24,9 +23,9 @@ FERMI is a Flutter-based media app that lets users discover movies & TV shows (v
 
 <div align="center">
 
-| 🎬 Screens | 🛠️ Services | 👤 Builder | 💻 PCs Used |
+| 🎬 Screens | 🛠️ Services | 👤 Builder |
 |:---:|:---:|:---:|:---:|
-| **~20** | **25+** | **Solo** | **0** |
+| **~20** | **25+** | **Solo** |
 
 </div>
 
