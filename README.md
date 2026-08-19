@@ -24,7 +24,7 @@ FERMI is a Flutter-based media app that lets users discover movies & TV shows (v
 <div align="center">
 
 | 🎬 Screens | 🛠️ Services | 👤 Builder |
-|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|
 | **~20** | **25+** | **Solo** |
 
 </div>
