@@ -144,6 +144,12 @@ Features get built ahead of their backend being ready (AI Chat, Live TV) and shi
 | 🔒 **Source code** | Kept private |
 | ✉️ **Contact** | https://t.me/Podda_2006_88 |
 | ✉️ **screen** | https://t.me/c/4402259834/6 |
+| --- | --- |
+| 🎬 **Live demo / APK** | [Download APK](https://your-link.com) |
+| 🔒 **Source code** | Kept private |
+| ✉️ **Contact** | [Contact Us](https://t.me/Podda_2006_88) |
+| ✉️ **Screen** | [View Screen](https://t.me/c/4402259834/6) |
+
 
 > ⚠️ If the backend isn't live when you try the demo (it's a personal-project server, not guaranteed 24/7 uptime), or if you'd like to see the source — **just reach out via the contact form/message above**. Happy to set up a temporary private repo view or walk through the code directly.
 
