@@ -1,0 +1,54 @@
+<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="nodeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3B3B"/>
+      <stop offset="100%" stop-color="#C4141C"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#8A8A94"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="420" fill="#07070B" rx="16"/>
+
+  <!-- Flutter App node -->
+  <rect x="330" y="24" width="240" height="66" rx="12" fill="#0E0E14" stroke="url(#nodeBorder)" stroke-width="1.5"/>
+  <text x="450" y="52" font-family="DM Sans, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF" text-anchor="middle">Flutter App</text>
+  <text x="450" y="72" font-family="DM Mono, monospace" font-size="11" fill="#8A8A94" text-anchor="middle">Provider + GoRouter + Hive</text>
+
+  <!-- arrow down -->
+  <line x1="450" y1="90" x2="450" y2="132" stroke="#8A8A94" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="468" y="115" font-family="DM Mono, monospace" font-size="11" fill="#6E6E7A">HTTP</text>
+
+  <!-- Express API node -->
+  <rect x="300" y="134" width="300" height="66" rx="12" fill="#0E0E14" stroke="url(#nodeBorder)" stroke-width="1.5"/>
+  <text x="450" y="162" font-family="DM Sans, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF" text-anchor="middle">Node / Express API</text>
+  <text x="450" y="182" font-family="DM Mono, monospace" font-size="11" fill="#8A8A94" text-anchor="middle">Railway deploy</text>
+
+  <!-- branch lines -->
+  <line x1="450" y1="200" x2="450" y2="230" stroke="#8A8A94" stroke-width="1.5"/>
+  <line x1="150" y1="230" x2="750" y2="230" stroke="#8A8A94" stroke-width="1.5"/>
+  <line x1="150" y1="230" x2="150" y2="256" stroke="#8A8A94" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="450" y1="230" x2="450" y2="256" stroke="#8A8A94" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="750" y1="230" x2="750" y2="256" stroke="#8A8A94" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- MongoDB node -->
+  <rect x="30" y="258" width="240" height="80" rx="12" fill="#0E0E14" stroke="#1C1C24" stroke-width="1.5"/>
+  <text x="150" y="290" font-family="DM Sans, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">MongoDB Atlas</text>
+  <text x="150" y="310" font-family="DM Mono, monospace" font-size="10.5" fill="#8A8A94" text-anchor="middle">Books · Movies</text>
+  <text x="150" y="326" font-family="DM Mono, monospace" font-size="10.5" fill="#8A8A94" text-anchor="middle">TMDB Cache Layer</text>
+
+  <!-- TMDB node -->
+  <rect x="330" y="258" width="240" height="80" rx="12" fill="#0E0E14" stroke="#1C1C24" stroke-width="1.5"/>
+  <text x="450" y="290" font-family="DM Sans, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">TMDB API</text>
+  <text x="450" y="310" font-family="DM Mono, monospace" font-size="10.5" fill="#8A8A94" text-anchor="middle">proxied — key never</text>
+  <text x="450" y="326" font-family="DM Mono, monospace" font-size="10.5" fill="#8A8A94" text-anchor="middle">touches the client</text>
+
+  <!-- Firebase node -->
+  <rect x="630" y="258" width="240" height="80" rx="12" fill="#0E0E14" stroke="#1C1C24" stroke-width="1.5"/>
+  <text x="750" y="290" font-family="DM Sans, sans-serif" font-weight="700" font-size="15" fill="#FFFFFF" text-anchor="middle">Firebase Admin</text>
+  <text x="750" y="310" font-family="DM Mono, monospace" font-size="10.5" fill="#8A8A94" text-anchor="middle">Auth (ID token verify)</text>
+  <text x="750" y="326" font-family="DM Mono, monospace" font-size="10.5" fill="#8A8A94" text-anchor="middle">Firestore admin check</text>
+
+  <text x="450" y="390" font-family="DM Sans, sans-serif" font-size="12.5" fill="#5C5C68" text-anchor="middle">Cache-first: repeat detail-page loads hit Mongo, not TMDB — cutting external API usage and latency.</text>
+</svg>
